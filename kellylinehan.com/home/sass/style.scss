@@ -1,0 +1,71 @@
+@import "compass/css3";
+@import "susy";
+
+/* Import Compass clearfix */
+@import "compass/utilities/general/clearfix";
+
+
+nav{
+	background-color: black;
+	margin-top: 0;
+
+}
+body{
+	background-image: url("../img/back.jpeg");
+	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.link1,.link3,.link5{
+	text-align: center;
+
+}
+.main{
+	// position: relative;
+}
+.center{
+
+  text-align: center;
+  line-height: 200px;
+  box-shadow: 3px 2px 3px rgba(0,0,0,0.5);
+  border-radius:10px;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+vert{
+	margin: 0 auto;
+	text-align: center;
+}
+.middle{
+	 width: 200px;
+  height: 200px;
+  /* CSS Absolute Center */
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* CSS Absolute Center end */
+  color: #FFF;
+  background: #333;  
+// margin: 0px auto;
+// text-align: center;
+// top:50
+// position: relative;
+// top: 50%;
+//  transform: translateY(-50%);
+ }
+
+
+
+nav ul li {
+	display: inline;
+	color:white;
+}
